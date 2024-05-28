@@ -9,7 +9,7 @@
         <fieldset>
             <legend>Login</legend>
             <div>
-                <?php  
+                <?php
                 if(isset($_GET['error message'])){
                     echo $_GET['error-message'];
                 }
