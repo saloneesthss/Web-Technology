@@ -2,8 +2,22 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    
 </head>
 <body>
-    
+    <form action="" method="post" onsubmit="return validateForm();">
+        <fieldset>
+            <legend>Input Form</legend>
+            <label for="firstname">First Name:</label> <br>
+            <input type="text" name="firstname" > <br><br>
+
+            <label for="lastname">Last Name:</label> <br>
+            <input type="text" name="lastname" id="lastname"> <br><br>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <script src="validateform.js"></script>
 </body>
+
 </html>
