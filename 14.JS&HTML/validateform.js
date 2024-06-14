@@ -1,13 +1,9 @@
 function validateForm() {
     const frm=document.register;
-    let firstname=document.getElementById('firstname').value;
-    let lastname=document.getElementById('lastname').value;
-
-    let errorMessage="";
-    let isValid=true;
-    if(frm.firstname.value===""){
-        errorMessage+='<br>'+'Please enter your name';
-        isValid=false;
+    
+    if(frm.firstname.value===''){
+        alert("Please enter your first name.");
+        return false;
     }
     
     if(frm.lastname.value==='') {
