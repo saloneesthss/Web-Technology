@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant_menu>
+    <item>
+        <item_name>Grilled Salmon</item_name>
+        <price>$15.99</price>
+    </item>
+    <item>
+        <item_name>Caesar Salad</item_name>
+        <price>$9.99</price>
+    </item>
+    <item>
+        <item_name>Carbonara</item_name>
+        <price>$17.99</price>
+    </item>
+    <item>
+        <item_name>Spagetti</item_name>
+        <price>$13.99</price>
+    </item>
+</restaurant_menu>
