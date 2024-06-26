@@ -18,6 +18,6 @@ if(!isset($_SESSION['login_user']) || empty($_SESSION['login_user'])) {
         <?php echo $_GET['message']; ?>
         <?php } ?>
     </div>
-    <h2><?php echo "Hello " . $_SESSION['login_user']; ?></h2>   
+    <h2><?php echo "Hello " . $_SESSION['login_user']; ?></h2>
 </body>
 </html>
